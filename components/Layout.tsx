@@ -3,7 +3,7 @@ import FollowBar from "@/components/layout/FollowBar";
 
 const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
     return (
-        <div className="h-screen bg-gray-100">
+        <div className="h-screen bg-white">
             <div className="container h-full mx-auto xl:px-30 max-w-6xl">
                 <div className="grid grid-cols-4 h-full">
                     <Sidebar />
