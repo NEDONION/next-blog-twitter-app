@@ -6,7 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="45ea0f7b-63b6-4c07-b704-0a16e8270d13" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Button.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/_app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +33,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/nedonion/Documents/iCollections/Folders/FrontEnd/next-blog-app/components",
+    "last_opened_file_path": "/Users/nedonion/Documents/iCollections/Folders/FrontEnd/next-blog-app/components/modals",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -41,11 +45,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/components/modals" />
+      <recent name="$PROJECT_DIR$/hooks" />
       <recent name="$PROJECT_DIR$/components" />
       <recent name="$PROJECT_DIR$/components/layout" />
       <recent name="$PROJECT_DIR$/libs" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/public" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -59,7 +63,7 @@
       <workItem from="1681098489225" duration="5000" />
       <workItem from="1681098496098" duration="7000" />
       <workItem from="1681098511335" duration="5214000" />
-      <workItem from="1681109204295" duration="2157000" />
+      <workItem from="1681109204295" duration="4426000" />
     </task>
     <servers />
   </component>
