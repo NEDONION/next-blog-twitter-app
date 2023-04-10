@@ -1,5 +1,5 @@
 
-# NextBlogTwitterApp - A Twitter clone App with React and Next.js
+# A Twitter clone App with React and Next.js
 
 ## Requisites
 
