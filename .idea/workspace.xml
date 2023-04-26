@@ -6,9 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="45ea0f7b-63b6-4c07-b704-0a16e8270d13" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/layout/SidebarTweetButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/layout/SidebarTweetButton.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/modals/RegisterModal.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/modals/RegisterModal.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hooks/useRegisterModal.ts" beforeDir="false" afterPath="$PROJECT_DIR$/hooks/useRegisterModal.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Input.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Input.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/layout/FollowBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/layout/FollowBar.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +30,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/nedonion/Documents/iCollections/Folders/FrontEnd/next-blog-app/hooks",
+    "last_opened_file_path": "/Users/nedonion/Documents/iCollections/Folders/FrontEnd/next-blog-app/components",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -43,11 +42,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/components" />
+      <recent name="$PROJECT_DIR$/hooks" />
       <recent name="$PROJECT_DIR$/pages/api/users" />
       <recent name="$PROJECT_DIR$/pages/api" />
       <recent name="$PROJECT_DIR$/libs" />
-      <recent name="$PROJECT_DIR$/components/modals" />
-      <recent name="$PROJECT_DIR$/hooks" />
     </key>
   </component>
   <component name="RunManager">
@@ -85,7 +84,7 @@
       <workItem from="1681164091314" duration="829000" />
       <workItem from="1681273215772" duration="15000" />
       <workItem from="1682546370154" duration="2534000" />
-      <workItem from="1682550382765" duration="362000" />
+      <workItem from="1682550382765" duration="846000" />
     </task>
     <servers />
   </component>

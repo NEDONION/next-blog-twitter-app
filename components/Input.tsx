@@ -10,7 +10,7 @@ interface InputProps {
 const Input: React.FC<InputProps> = ({ placeholder, value, type = "text", onChange, disabled, label }) => {
   return (
     <div className="w-full">
-      {label && <p className="text-xl text-white font-semibold mb-2">{label}</p>}
+      {label && <p className="text-xl text-black font-semibold mb-2">{label}</p>}
       <input
         disabled={disabled}
         onChange={onChange}
@@ -26,7 +26,7 @@ const Input: React.FC<InputProps> = ({ placeholder, value, type = "text", onChan
           border-neutral-800 
           rounded-md
           outline-none
-          text-white
+          text-black
           focus:border-sky-500
           focus:border-2
           transition
