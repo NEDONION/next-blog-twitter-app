@@ -20,6 +20,7 @@ const RegisterModal = () => {
 
   const [isLoading, setIsLoading] = useState(false);
 
+  // 定义了一个回调函数，用于调用自定义 hooks 来设置 modal 的开关
   const onToggle = useCallback(() => {
     if (isLoading) {
       return;

@@ -6,12 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="45ea0f7b-63b6-4c07-b704-0a16e8270d13" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Modal.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Modal.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/layout/SidebarTweetButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/layout/SidebarTweetButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/modals/RegisterModal.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/modals/RegisterModal.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hooks/useRegisterModal.ts" beforeDir="false" afterPath="$PROJECT_DIR$/hooks/useRegisterModal.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,29 +26,46 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/nedonion/Documents/iCollections/Folders/FrontEnd/next-blog-app/pages/api&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/nedonion/Documents/iCollections/Folders/FrontEnd/next-blog-app/node_modules/typescript/lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/nedonion/Documents/iCollections/Folders/FrontEnd/next-blog-app/hooks",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "/Users/nedonion/Documents/iCollections/Folders/FrontEnd/next-blog-app/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pages/api/users" />
       <recent name="$PROJECT_DIR$/pages/api" />
       <recent name="$PROJECT_DIR$/libs" />
       <recent name="$PROJECT_DIR$/components/modals" />
       <recent name="$PROJECT_DIR$/hooks" />
-      <recent name="$PROJECT_DIR$/components" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.dev" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -66,7 +80,12 @@
       <workItem from="1681098511335" duration="5214000" />
       <workItem from="1681109204295" duration="4542000" />
       <workItem from="1681113767875" duration="1865000" />
-      <workItem from="1681159979041" duration="2414000" />
+      <workItem from="1681159979041" duration="2503000" />
+      <workItem from="1681162658994" duration="85000" />
+      <workItem from="1681164091314" duration="829000" />
+      <workItem from="1681273215772" duration="15000" />
+      <workItem from="1682546370154" duration="2534000" />
+      <workItem from="1682550382765" duration="362000" />
     </task>
     <servers />
   </component>
