@@ -3,6 +3,9 @@ import { IconType } from "react-icons";
 import { useRouter } from 'next/router';
 
 import { BsDot } from 'react-icons/bs';
+import useCurrentUser from "@/hooks/useCurrentUser";
+import loginModal from "@/components/modals/LoginModal";
+import useLoginModal from "@/hooks/useLoginModal";
 
 interface SidebarItemProps {
   label: string;
@@ -15,11 +18,21 @@ interface SidebarItemProps {
 
 const SidebarItem: React.FC<SidebarItemProps> = ({ label, icon: Icon, href, auth, onClick, alert }) => {
   const router = useRouter();
+  const loginModal = useLoginModal();
 
+  const { data: currentUser } = useCurrentUser();
 
-    function handleClick() {
-
+  const handleClick = useCallback(() => {
+    if (onClick) {
+      return onClick();
     }
+
+    if (auth && !currentUser) {
+      loginModal.onOpen();
+    } else if (href) {
+      router.push(href);
+    }
+  }, [router, href, auth, loginModal, onClick, currentUser]);
 
     return (
     <div onClick={handleClick} className="flex flex-row items-center">

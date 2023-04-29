@@ -8,8 +8,11 @@ import {
 import SidebarLogo from "@/components/layout/SidebarLogo";
 import SidebarItem from "@/components/layout/SidebarItem";
 import SidebarTweetButton from "@/components/layout/SidebarTweetButton";
+import useCurrentUser from "@/hooks/useCurrentUser";
 
 const Sidebar = () => {
+    const { data: currentUser } = useCurrentUser();
+
     const items = [
         {
             icon: BsHouseHeart,
@@ -24,11 +27,10 @@ const Sidebar = () => {
         {
             icon: BsPerson,
             label: 'Profile',
-            href: '/users/123',
+            href: `/users/${currentUser?.id}`,
+            auth: true,
         },
     ]
-
-
 
     return (
         <div className="col-span-1 h-full pr-4 md:pr-6">
@@ -43,7 +45,7 @@ const Sidebar = () => {
                             label={item.label}
                         />
                     ))}
-                    <SidebarItem onClick={() =>{}} icon={BiLogOut} label="Logout" />
+                    {currentUser && <SidebarItem onClick={() => signOut()} icon={BiLogOut} label="Logout" />}
                     <SidebarTweetButton />
                 </div>
             </div>
