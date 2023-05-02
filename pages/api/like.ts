@@ -14,7 +14,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     const { currentUser } = await serverAuth(req, res);
 
     if (!postId || typeof postId !== 'string') {
-      throw new Error('Invalid ID');
+      throw new Error('Invalid Current Post ID');
     }
 
     const post = await prisma.post.findUnique({
