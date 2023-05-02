@@ -4,7 +4,6 @@ import { useRouter } from 'next/router';
 
 import { BsDot } from 'react-icons/bs';
 import useCurrentUser from "@/hooks/useCurrentUser";
-import loginModal from "@/components/modals/LoginModal";
 import useLoginModal from "@/hooks/useLoginModal";
 
 interface SidebarItemProps {

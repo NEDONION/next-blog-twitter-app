@@ -30,4 +30,7 @@ npx prisma init
 
 # make sure to have your current IP address in whitelist
 npx prisma db push 
+
+# install prisma client
+npm install @prisma/client
 ```
