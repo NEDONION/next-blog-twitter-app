@@ -9,6 +9,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
   }
 
   try {
+    // Debug for unfollow feature
     const userId = req.method === 'POST' ? req.body.userId : req.query.userId;
 
     const { currentUser } = await serverAuth(req, res);
