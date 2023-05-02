@@ -49,7 +49,7 @@ const ImageUpload: React.FC<DropzoneProps> = ({ onChange, label, value, disabled
           />
         </div>
       ) : (
-        <p className="text-black font-semibold" >{label}</p>
+        <p className="text-black">{label}</p>
       )}
     </div>
    );

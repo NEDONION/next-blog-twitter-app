@@ -54,10 +54,10 @@ const PostItem: React.FC<PostItemProps> = ({ data = {}, userId }) => {
       onClick={goToPost}
       className="
         border-b-[1px] 
-        border-neutral-200
+        border-neutral-200 
         p-5 
         cursor-pointer 
-        hover:bg-neutral-100
+        hover:bg-neutral-200 
         transition
       ">
       <div className="flex flex-row items-start gap-3">
@@ -67,7 +67,7 @@ const PostItem: React.FC<PostItemProps> = ({ data = {}, userId }) => {
             <p 
               onClick={goToUser} 
               className="
-                text-black
+                text-black 
                 font-semibold 
                 cursor-pointer 
                 hover:underline

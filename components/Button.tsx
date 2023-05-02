@@ -1,29 +1,29 @@
 interface ButtonProps {
-  label: string;
-  secondary?: boolean;
-  fullWidth?: boolean;
-  large?: boolean;
-  onClick: () => void;
-  disabled?: boolean;
-  outline?: boolean;
-  tweetButton?: boolean;
+    label: string;
+    secondary?: boolean;
+    fullWidth?: boolean;
+    large?: boolean;
+    onClick: () => void;
+    disabled?: boolean;
+    outline?: boolean;
+    tweetButton?: boolean;
 }
 
-const Button: React.FC<ButtonProps> = ({ 
-  label, 
-  secondary, 
-  fullWidth, 
-  onClick, 
-  large, 
-  disabled, 
-  outline,
-  tweetButton
-}) => {
-  return ( 
-    <button
-      disabled={disabled}
-      onClick={onClick}
-      className={`
+const Button: React.FC<ButtonProps> = ({
+                                           label,
+                                           secondary,
+                                           fullWidth,
+                                           onClick,
+                                           large,
+                                           disabled,
+                                           outline,
+                                           tweetButton
+                                       }) => {
+    return (
+        <button
+            disabled={disabled}
+            onClick={onClick}
+            className={`
         disabled:opacity-70
         disabled:cursor-not-allowed
         rounded-full
@@ -44,10 +44,10 @@ const Button: React.FC<ButtonProps> = ({
         ${tweetButton ? 'hover:bg-sky-600' : ''}
         ${tweetButton ? 'hover:bg-opacity-90' : ''}
       `}
-    >
-      {label}
-    </button>
-   );
+        >
+            {label}
+        </button>
+    );
 }
- 
+
 export default Button;

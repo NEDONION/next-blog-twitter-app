@@ -64,8 +64,8 @@ const LoginModal = () => {
         <span 
           onClick={onToggle} 
           className="
-            text-black
-            cursor-pointer
+            text-black 
+            cursor-pointer 
             hover:underline
           "
           > Create an account</span>

@@ -28,7 +28,7 @@ const Header: React.FC<HeaderProps> = ({showBackArrow, label }) => {
               transition
           "/>
         )}
-        <h1 className="text-black text-xl font-bold">
+        <h1 className="text-black text-xl font-semibold">
           {label}
         </h1>
       </div>

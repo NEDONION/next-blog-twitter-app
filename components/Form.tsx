@@ -65,11 +65,11 @@ const Form: React.FC<FormProps> = ({ placeholder, isComment, postId }) => {
                 resize-none 
                 mt-3 
                 w-full 
-                bg-white
+                bg-white 
                 ring-0 
                 outline-none 
                 text-[20px] 
-                placeholder-neutral-500
+                placeholder-neutral-500 
                 text-black
               "
               placeholder={placeholder}>
@@ -79,7 +79,8 @@ const Form: React.FC<FormProps> = ({ placeholder, isComment, postId }) => {
                 opacity-0 
                 peer-focus:opacity-100 
                 h-[1px] 
-                w-full
+                w-full 
+                border-neutral-200 
                 transition"
             />
             <div className="mt-4 flex flex-row justify-end">
@@ -89,7 +90,7 @@ const Form: React.FC<FormProps> = ({ placeholder, isComment, postId }) => {
         </div>
       ) : (
         <div className="py-8">
-          <h1 className="text-white text-2xl text-center mb-4 font-bold">Welcome to Twitter</h1>
+          <h1 className="text-black text-2xl text-center mb-4 font-bold">Welcome to Twitter</h1>
           <div className="flex flex-row items-center justify-center gap-4">
             <Button label="Login" onClick={loginModal.onOpen} />
             <Button label="Register" onClick={registerModal.onOpen} secondary />

@@ -11,7 +11,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     const { userId } = req.query;
 
     if (!userId || typeof userId !== 'string') {
-      throw new Error('Invalid Current User ID');
+      throw new Error('Invalid ID');
     }
 
     const notifications = await prisma.notification.findMany({
