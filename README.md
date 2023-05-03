@@ -1,6 +1,8 @@
 
 # A Twitter clone App with React and Next.js
 
+![](./demo-next-app-twitter-clone.png)
+
 ## Requisites
 
 - Typescript
