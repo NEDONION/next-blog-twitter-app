@@ -14,10 +14,34 @@
 
 ## Getting Started
 
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/NEDONION/next-blog-twitter-app.git
+```
+
+### 2. Install dependencies
+
 ```bash
 # recommended to use npm
 npm install
 
+# install prisma 
+prisma generate
+
+```
+
+### 3. Edit .env file
+
+```bash
+DATABASE_URL="mongodb://USERNAME:PASSWORD@HOST/DATABASE"
+NEXTAUTH_JWT_SECRET="NEXTAUTH_JWT_SECRET"
+NEXTAUTH_SECRET="NEXTAUTH_SECRET"
+```
+
+### 4. Run the project
+
+```bash
 npm run dev
 ```
 
