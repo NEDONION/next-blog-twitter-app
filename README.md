@@ -33,6 +33,9 @@ prisma generate
 
 ### 3. Edit .env file
 
+- Connect to MongoDB Cloud Server. Refer to [prisma/database-connectors-mongodb](https://www.prisma.io/docs/concepts/database-connectors/mongodb).
+- Replace the following `DATABASE_URL` with your own MongoDB URL.
+
 ```bash
 DATABASE_URL="mongodb://USERNAME:PASSWORD@HOST/DATABASE"
 NEXTAUTH_JWT_SECRET="NEXTAUTH_JWT_SECRET"
